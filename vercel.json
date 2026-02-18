@@ -9,7 +9,6 @@
     { "src": "/", "dest": "/api/app" },
     { "src": "/login", "dest": "/public/login.html" },
     { "src": "/index\\.html", "dest": "/api/app" },
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/api/$1" }
+    { "handle": "filesystem" }
   ]
 }
