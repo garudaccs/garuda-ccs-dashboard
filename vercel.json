@@ -6,9 +6,9 @@
     { "src": "public/**", "use": "@vercel/static" }
   ],
   "routes": [
-    { "src": "^/$", "dest": "/api/app" },
+    { "src": "^/$", "dest": "/api/app.js" },
     { "src": "^/login/?$", "dest": "/public/login.html" },
-    { "src": "^/index\\.html$", "dest": "/api/app" },
+    { "src": "^/index\\.html$", "dest": "/api/app.js" },
     { "handle": "filesystem" }
   ]
 }
